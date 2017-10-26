@@ -20,6 +20,66 @@
             <link rel="stylesheet" href="style.css">
         </head>
     <body>
+       
+         <nav class="navbar navbar-default" role="navigation">
+             <!-- Brand and toggle get grouped for better mobile display -->
+             <div class="navbar-header">
+                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                     <span class="sr-only">Toggle navigation</span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                 </button>
+                 <a class="navbar-brand" href="#">Cats Album</a>
+             </div>
+         
+             <!-- Collect the nav links, forms, and other content for toggling -->
+             <div class="collapse navbar-collapse navbar-ex1-collapse">
+                 <ul class="nav navbar-nav">
+                     <li class="active"><a href="#">About</a></li>
+                     <li><a href="#">Contact</a></li>
+                 </ul>
+                 <ul class="nav navbar-nav navbar-right">
+                     <li><a class="btn" data-toggle="modal" href='#modal-id'>SignUp</a></li>
+                     </li>
+                 </ul>
+             </div><!-- /.navbar-collapse -->
+         </nav>
+            
+            <div class="modal fade" id="modal-id">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                         
+                         <form action="" method="POST" role="form">
+                             <legend>Please SignUp</legend>
+                         
+                             <div class="form-group">
+                                 <label for="">User</label>
+                                 <input type="text" class="form-control" id="" placeholder="Input field">
+                                 <label for="">Password</label>
+                                 <input type="text" class="form-control" id="" placeholder="Input field">
+
+                            </div>
+                            <div class="checkbox">
+                                    <label><input type="checkbox" value="">Remember Me</label>
+                            </div>
+                             
+                         
+                             <button type="submit" class="btn btn-primary">Submit</button>
+                         </form>
+                            
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
                     
         <header class="jumbotron text-center">
             <h1>Cats Album</h1>

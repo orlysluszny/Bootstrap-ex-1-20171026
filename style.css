@@ -3,6 +3,12 @@ Styles go here
 * {
     box-sizing: border-box;
   }
-body {
+header {
     font-family: 'Lobster', cursive;
+  }
+  .navbar-default {
+      margin-bottom: 0;
+  }
+  .navbar-brand {
+    font-family: 'Lobster', cursive;    
   }
